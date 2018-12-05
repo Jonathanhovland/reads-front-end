@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import NavBar from './Components/NavBar';
-import Books from './Components/Books';
 
 class App extends Component {
 
@@ -23,8 +22,7 @@ class App extends Component {
       <Router>
       <div className="App">
         <header className="App-header">
-          <NavBar />
-          <Books books={this.state.books} />
+          <NavBar books={this.state.books} />
         </header>
       </div>
       </Router>

@@ -11,7 +11,7 @@ const Books = ({books}) => {
         <Image src={book.bookCoverURL} />
         <Card.Content>
           <Card.Header>{book.bookTitle}</Card.Header>
-          <Card.Description>{book.bookGenre}</Card.Description>
+          <Card.Description>Genre: {book.bookGenre}</Card.Description>
           <Card.Description>{book.bookDescription}</Card.Description>
         </Card.Content>
       </Card>
