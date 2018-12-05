@@ -47,7 +47,7 @@ export default class MenuExamplePointing extends Component {
         </Menu>
 
         <Route path="/book" render={() => <Books />}  />
-        <Route path="/author" render={() => <Authors />}  />
+        {/* <Route path="/author" render={() => <Authors />}  /> */}
         </React.Fragment>
         </Router>    
         )
