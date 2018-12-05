@@ -1,14 +1,12 @@
-/* .header {
-  display: flex;
-  flex-wrap: wrap;
+
+.navbar-logo {
+  width: 5em;
+  height: 5em;
 }
 
-.header-logo {
-  width: 10em;
-  height: 10em;
+.navbar-name {
+  margin: 0em;
+  padding: 1em;
+  padding-left: 0em;
+  padding-right: 0.5em
 }
-
-.header.name {
-  margin: 0.6em;
-} */
-
